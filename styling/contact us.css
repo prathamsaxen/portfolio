@@ -1,0 +1,247 @@
+.main-page
+{
+    width: 90vw;
+    height: 100vh;
+    background-color: #082032;
+    align-items: center;
+    color: white;
+}
+.main-page-main-container
+{
+    /* border: 2px solid grey; */
+    width: 75vw;
+    height: 80vh;
+    margin: 10vh auto;
+    display: flex;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 6px;
+    
+}
+@keyframes main-anim
+{
+    from{
+     margin-top: 0vh;
+    }
+    to{
+        margin-top: 6vh;
+    }
+}
+.data-output,.data-input
+{
+    /* border: 2px solid lack; */
+    width: 37.5vw;
+    height: 80vh;
+  
+
+}
+.data-output
+{
+    background-color: #01030f;
+}
+
+.head
+{
+    font-size: 2.3rem;
+    font-weight: bolder;
+    margin-top: 6vh;
+    margin-left: 3vw;
+    color: #1abc9c;
+    animation: main-anim 1s 1;
+}
+.data
+{
+    font-size: 1.6rem;
+    margin-top: 3vh;
+    margin-left: 3vw;
+    font-weight: bold;
+}
+.mail,.phone{
+    display: flex;
+    margin-top: 7vh;
+    margin-left: 3vw;
+
+}
+ .mail img,.phone img
+{
+    width: 2vw;
+    height: 3vh;
+    margin-right: 1.5vw;
+
+}
+.mail-id{
+    margin-top: 0.5vh;
+}
+.mobile{
+    margin-top: 0.5vh;
+}
+.connect-head{
+    margin-left: 3vw;
+    margin-top: 6vh;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    
+}
+.social-icons
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 3vw;
+    
+}
+.social-icons a img
+{
+    height: 6vh;
+    width: 3.5vw;
+    /* margin-left: 1.2vw; */
+    margin-top: 5vh;
+    
+}
+.one
+{
+    margin-right: 1.5vw;
+}
+.second
+{
+    margin-right: 1.5vw;
+}
+.input-head{
+    font-size: 2.3rem;
+    font-weight: bolder;
+    margin-top: 6vh;
+    /* margin-left: 3vw; */
+    color: #1abc9c;
+    text-align: center;
+    animation-name: input-anim;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes input-anim{
+    from{
+        margin-top: 12vh;
+    }
+    to{
+        margin-top: 6vh;
+    }
+}
+#name input
+{
+    /* border-radius: 23px; */
+    width: 20vw;
+    height: 2.5vh;
+    background-color: #082032;
+    /* border-bottom: 2px solid whitw; */
+    margin-top: 6vh;
+    margin-bottom: 0vh;
+    text-align: center;
+    color: azure;
+    /* font-weight: bolder; */
+    outline: 0;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    border: none;
+  border-bottom: 2px solid grey;
+}
+
+#mail input{
+    
+    /* border-radius: 23px; */
+    width: 20vw;
+    height: 2.5vh;
+    background-color: #082032;
+    border-bottom: 2px solid black;
+    margin-top: 4vh;
+    margin-bottom: 0vh;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: azure;
+    outline: 0;
+    border: none;
+  border-bottom: 2px solid grey;
+}
+#tel input{
+    /* border-radius: 23px; */
+    width: 20vw;
+    height: 2.5vh;
+    background-color: #082032;
+    border-bottom: 2px solid black;
+    margin-top: 4vh;
+    margin-bottom: 0vh;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: azure;
+    outline: 0cm;
+    border: none;
+  border-bottom: 2px solid grey;
+}
+#tel input::placeholder,#mail input::placeholder,#name input::placeholder
+{
+    color: whitesmoke;
+    opacity: 0.3;
+    
+}
+#tel input:focus::placeholder, #mail input:focus::placeholder,#name input:focus::placeholder {
+    color: transparent;
+  }
+
+#reason textarea
+{
+    border-radius: 23px;
+    width: 18vw;
+    height: 20vh;
+    background-color: #082032;
+    border: 2px solid grey;
+    margin-top: 4vh;
+    margin-bottom: 0vh;
+    font-size: 1.2rem;
+    color: azure;
+    font-weight: bolder;
+    padding: 20px;
+}
+#submit input{
+        background-color: #1abc9c;
+        border-radius: 23px;
+        width: 15vw;
+        height: 5vh;
+        margin: 5vh ;
+        font-size: 1rem;
+        font-weight: bolder;
+        color: azure;
+        cursor:pointer ;
+    }
+#submit input:hover
+{
+    background-color: white;
+    color: #1abc9c;
+}
+.tags
+{
+    position: absolute;
+    top: 27vh;
+    left: 57.5vw;
+    animation-name: tags-anim;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+.items
+{
+    margin-bottom: 4vh;
+    font-size: 1.4rem;
+    color: #1abc9c;
+    
+}
+@keyframes tags-anim{
+    from{
+        margin-top: 6vh;
+    }
+    to{
+        margin-top: 0vh;
+    }
+}

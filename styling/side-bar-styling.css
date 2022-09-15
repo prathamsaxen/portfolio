@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.page
+{
+display: flex;
+}
+.side-bar{
+    background-color: rgb(64, 63, 63);
+    width: 10vw;
+    height: 100vh;
+}
+.nav
+{
+    display: flex;
+    flex-direction: column;
+    /* padding: 0.5vh; */
+    margin-top: 10vh;
+}
+.nav-items
+{
+    padding: 2vw;
+}
+
+.nav-items a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    transition: all;
+    transition-duration: 1s;
+}
+.nav-items a:hover
+{
+    color: aqua;
+}
+.cross-icon img{
+    width: 1vw;
+    height: 2vh;
+    position: absolute;
+    top: 1.5vh;
+    left: 0.7vw;
+    cursor: pointer;
+}
+.home-Pratham a
+{
+    text-decoration: none;
+    color: aliceblue;
+    position: absolute;
+    top: 1.5vh;
+    left: 2.5vw;
+    height: 2vh;
+    font-weight: bolder;
+}
