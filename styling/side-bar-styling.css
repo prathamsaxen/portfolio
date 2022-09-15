@@ -38,21 +38,25 @@ display: flex;
 {
     color: aqua;
 }
-.cross-icon img{
+/* .cross-icon img{
     width: 1vw;
     height: 2vh;
     position: absolute;
     top: 1.5vh;
     left: 0.7vw;
     cursor: pointer;
-}
+} */
 .home-Pratham a
 {
     text-decoration: none;
     color: aliceblue;
     position: absolute;
     top: 1.5vh;
-    left: 2.5vw;
+    left: 0.6vw;
     height: 2vh;
     font-weight: bolder;
+}
+.home-Pratham a img{
+    width: 5vw;
+    height: 8vh;
 }
