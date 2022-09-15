@@ -8,8 +8,13 @@
     <link rel="stylesheet" href="../styling/side-bar-styling.css">
     <link rel="stylesheet" href="../styling/knowme.css">
     <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styling/preloader.css">
 </head>
-<body>
+
+<body onload="pre_loader_off()">
+  <div class="pre-loader" id="loader">
+        
+  </div>
     <div class="page">
         <div class="side-bar">
             <div class="nav">
@@ -111,4 +116,5 @@
         </div>
     </div>
 </body>
-</html>l
+<script src="../functions-js/pre-loader.js"></script>
+</html>

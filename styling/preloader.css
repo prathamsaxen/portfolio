@@ -1,0 +1,9 @@
+.pre-loader
+{
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+    z-index: 99;
+    background: white url(../Pre-loader/preloader-gif.gif) no-repeat center;
+    position: fixed;
+}
