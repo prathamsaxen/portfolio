@@ -108,6 +108,9 @@
     animation-duration: 1s;
     animation-iteration-count: 1;
 }
+.github-margin{
+    margin-left: 2vw;
+}
 @keyframes text-flow{
     from{
         margin-top:0vh;
