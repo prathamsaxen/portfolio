@@ -47,6 +47,7 @@
     margin-left: 3vw;
     color: #1abc9c;
     animation: main-anim 1s 1;
+    animation-delay: 2s;
 }
 .data
 {
@@ -120,6 +121,7 @@
     animation-name: input-anim;
     animation-duration: 1s;
     animation-iteration-count: 1;
+    animation-delay: 2s;
 }
 .form{
     display: flex;
@@ -235,6 +237,7 @@
     animation-name: tags-anim;
     animation-duration: 1s;
     animation-iteration-count: 1;
+    animation-delay: 2s;
 }
 .items
 {

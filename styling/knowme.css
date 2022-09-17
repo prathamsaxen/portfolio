@@ -53,6 +53,7 @@
     animation-name: info-container;
     animation-duration: 1s;
     animation-iteration-count: 1;
+    animation-delay: 2s;
 }
 .education
 {
@@ -99,6 +100,7 @@ ul li{
     animation-name: tech-container;
     animation-duration: 1s;
     animation-iteration-count: 1;
+    animation-delay: 2s;
 }
 .html-css-bar{
     height: 0.5vh;
@@ -127,6 +129,7 @@ ul li{
     animation-name: slide;
     animation-duration: 1.5s;
     animation-iteration-count: 1;
+    animation-delay: 2s;
 
 }
 .slide-js{
@@ -134,12 +137,14 @@ ul li{
     animation-name: slider-js;
     animation-duration: 1.5s;
     animation-iteration-count: 1;
+    animation-delay: 2s;
 }
 .slide-ds{
     width: 12.75vw;
     animation-name: slider-ds;
     animation-duration: 1.5s;
     animation-iteration-count: 1;
+    animation-delay: 2s;
 }
 .slide-python
 {
@@ -147,12 +152,14 @@ ul li{
     animation-name: slide-python;
     animation-duration: 1.5s;
     animation-iteration-count: 1;
+    animation-delay: 2s;
 }
 .slide-c-c{
     width: 13.5vw;
     animation-name: slide-c-c;
     animation-duration: 1.5s;
     animation-iteration-count: 1;
+    animation-delay: 2s;
 }
 @keyframes slider-js
 {

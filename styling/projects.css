@@ -21,6 +21,7 @@
     animation-name: undercontruct-anim;
     animation-duration: 1s;
     animation-iteration-count: 1;
+    animation-delay: 2s;
 }
 .data{
     text-align: center;
@@ -30,6 +31,7 @@
     animation-name: heading;
     animation-duration:0.8s ;
     animation-iteration-count: 1;
+    animation-delay: 2s;
 }
 @keyframes undercontruct-anim{
     from{
