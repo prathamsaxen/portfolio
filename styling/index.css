@@ -32,13 +32,13 @@
 {
     /* margin-top: 2vh; */
     margin-left: 2vw;
-    font-size: 2.5rem;
+    font-size: 40px;
     transition: all;
     transition-duration: 1s;
 }
 .data-side h1:hover
 {
-   font-size: 4.2rem;
+   font-size: 45px;
    
 }
 #top-head
@@ -47,30 +47,30 @@
     animation-name: text-flow;
     animation-duration: 1s;
     animation-iteration-count: 1;
-    animation-delay: 2s;
    
 }
 .data-side h2
 {
     margin-left: 2vw;
-    font-size: 2.1rem;
-    
+    font-size: 30px;
+    transition: all;
+    transition-duration: 1s;
 }
 .data-side h2:hover
 {
-    font-size: 3rem;
+    font-size:35px;
 }
 .data-side h3
 {
     margin-top: 2vh;
     margin-left: 2vw;
     margin-bottom: 5vh;
-    font-size: 1.6rem;
+    font-size: 27px;
     transition: all;
     transition-duration: 1s;
 }
 .data-side h3:hover{
-    font-size: 2rem;
+    font-size: 32px;
     /* text-shadow: 10px 0px 2px white; */
 }
 
@@ -104,11 +104,12 @@
 .image-side img
 {
     /* box-shadow: 50px 50px 20px #1abc9c; */
+    height: 55vh;
+    width: 22vw;
     box-shadow: 15px 15px 20px #3c7d70;
     animation: img-flow;
     animation-duration: 1s;
     animation-iteration-count: 1;
-    animation-delay: 2s;
 }
 @keyframes text-flow{
     from{
@@ -128,9 +129,3 @@
         margin-top: 0vh;
     }
 }
-@media only screen and (max-width: 1043px) {
-    .image-side img{
-            width:30vw;
-            height: 40vh;
-    }
-  }
