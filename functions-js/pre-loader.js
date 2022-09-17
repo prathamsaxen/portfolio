@@ -1,6 +1,10 @@
 var class_name=document.getElementById('loader');
 function pre_loader_off()
 {
-    class_name.style.display ='none';
+    
+    setTimeout(() => {
+        class_name.style.display ='none';
+    }, 2000);
+    
     console.log('Pre-loader-working');
 }
