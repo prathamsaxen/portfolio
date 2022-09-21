@@ -1,0 +1,97 @@
+@media (max-width:767px) {
+    /* Old Code Written For Whole Screen From Here */
+.main-page{  
+    width: 100vw;
+    height:100vh;
+    background-color: #082032;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.main-page-main-container
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.data-side,.image-side
+{
+    height: 50vh;
+    width: 100vw;
+}
+
+.data-side h1
+{
+    margin-top: 0vh;
+    text-align: center;
+    margin-left: 0vw;
+    font-size: 30px;
+    transition: none;
+}
+#top-head
+{
+    margin-top: 1vh;
+    animation-name: none;  
+}
+.data-side h2
+{
+    margin-left: 2vw;
+    font-size: 25px;
+    text-align: center;
+    transition: none;
+
+}
+.data-side h3
+{
+    margin-top: 01vh;
+    margin-left: 2vw;
+    margin-bottom: 5vh;
+    font-size: 27px;
+    display: none;
+    transition: none;  
+}
+.btn{
+    width: 25vw;
+    margin: 0vh auto;
+}
+.data-side button{
+    width: 8vw;
+    height: 8vh;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid #ffff;
+    background-color: #274d45;
+    cursor: pointer; 
+    margin-top: 6vh;
+}
+.data-side button a{
+    font-size: 12px;
+    text-align: center;
+}
+.btn button:hover a
+{
+    background-color: aliceblue;
+    color: #274d45;
+    
+}
+.image-side
+{
+    display: flex; 
+    justify-content: center;
+    margin-top: -4vh;
+    
+}
+.image-side img
+{
+   
+    height: 35vh;
+    width: 20vw;
+    border-radius:300px ;
+    box-shadow: none;
+    animation: none;
+
+}
+
+
+}
