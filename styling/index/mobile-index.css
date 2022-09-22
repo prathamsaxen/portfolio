@@ -16,19 +16,19 @@
     .main-page-main-container{
         width:100vw;
         height:100vh;
-        border: 2px solid white;
+        /* border: 2px solid white; */
         margin-top: 0;
         display: flex;
         flex-direction: column-reverse;
     }
     .data-side
     {
-        height: 75vh;
+        height: 60vh;
         width: 100vw;
         /* border:2px solid red; */
     }
     .image-side{
-        height: 25vh;
+        height: 40vh;
         width: 100vw;
         /* border: 2px solid white; */
         
@@ -44,7 +44,7 @@
         font-size: 25px;
     }
     #top-head{
-        margin-top: 8vh;
+        margin-top: 4vh;
         animation: none;
     }
     .data-side h2{
@@ -70,9 +70,10 @@
     }
     .btn{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
+        margin-top: 8vh;
     }
     .btn button{
         width: 35vw;
@@ -82,23 +83,25 @@
         font-size:15px;
         font-weight: bold;
         cursor: pointer;
+
     }
     .btn button:first-child{
-        margin-top: 4vh;
+        margin-top: 0vh;
     }
     .btn button:last-child
     {
-        margin-top: 2vh;
+        margin-top: 0vh;
     }
     .btn button:active{
         background-color: aliceblue;
         color: #274d45;
     }
     .image-side img{
-        height:15vh;
-        width: 15vw;
-        border-radius: 100px;
+        height:25vh;
+        width: 40vw;
+        border-radius: 36px;
         box-shadow: none;
         animation: none;
+        outline:2px solid white;
     }
 }
