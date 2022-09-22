@@ -1,6 +1,7 @@
+@media (min-width:1020px) and (max-width:1030px) {
 .main-page{
     /* border: 2px solid red; */
-    width: 90vw;
+    width: 50vw;
     height:100vh;
     background-color: #082032;
     color: white;
@@ -82,18 +83,7 @@
     background-color: #274d45;
     font-weight: bolder;
     font-size: 1.1rem;
-    cursor: pointer;
-    /* border-radius: 12px;
-    background-color: #274d45;
-    margin-left: 2vw;
-    text-decoration: none;
-    border: 2px solid #1abc9c;
-    padding: 7px;
-    color: white;
-    font-weight: bolder;
-    cursor: pointer; */
-   
-    
+    cursor: pointer;   
 }
 .data-side button a{
     text-decoration: none;
@@ -143,4 +133,5 @@
     to{
         margin-top: 0vh;
     }
+}
 }
