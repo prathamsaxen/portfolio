@@ -83,15 +83,10 @@
     font-weight: bolder;
     font-size: 1.1rem;
     cursor: pointer;
-    /* border-radius: 12px;
-    background-color: #274d45;
-    margin-left: 2vw;
-    text-decoration: none;
-    border: 2px solid #1abc9c;
-    padding: 7px;
-    color: white;
-    font-weight: bolder;
-    cursor: pointer; */
+    animation: Opacity-anim;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
    
     
 }
@@ -144,3 +139,12 @@
         margin-top: 0vh;
     }
 }
+@keyframes Opacity-anim{
+    from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+
