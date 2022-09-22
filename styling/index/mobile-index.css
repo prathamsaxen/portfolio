@@ -86,6 +86,7 @@
         animation-name: Opacity-anim;
         animation-duration: 2s;
         animation-iteration-count: 1;
+        animation-delay: 2s;
     }
     .btn button:first-child{
         margin-top: 0vh;
