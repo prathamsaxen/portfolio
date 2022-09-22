@@ -83,7 +83,9 @@
         font-size:15px;
         font-weight: bold;
         cursor: pointer;
-
+        animation-name: Opacity-anim;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
     }
     .btn button:first-child{
         margin-top: 0vh;
@@ -103,5 +105,13 @@
         box-shadow: none;
         animation: none;
         outline:2px solid white;
+    }
+    @keyframes Opacity-anim {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
     }
 }
