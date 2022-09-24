@@ -1,0 +1,50 @@
+@media (min-width:0px) and (max-width:770px)
+{
+.main-page{
+    background-color: #082032;
+    width: 100vw;
+    height: 100vh;
+}
+.page-container-update-box
+{
+    border: 2px solid grey;
+    border: none;
+    width: 100vw;
+    height: 1000vh;
+    margin: 0;
+    
+
+}
+.page-container-update-box img{
+    height: 20vh;
+    width: 40vw;
+    align-items: center;
+    margin: 25vh 35vw;
+    margin-bottom: 15vh;
+    animation: none;
+}
+.data{
+    text-align: center;
+    color: white;
+    font-size: 0.7rem;
+    margin-top: 1vh;
+   animation: none;
+}
+@keyframes undercontruct-anim{
+    from{
+        margin-top: 18vh;
+    }
+    to{
+        margin-top: 25vh;
+    }
+}
+@keyframes heading {
+    from{
+        margin-top: 0vh;
+    }
+    to{
+        margin-top: 1vh;
+    }
+    
+}
+}
