@@ -12,16 +12,19 @@
     width: 100vw;
     height: 1000vh;
     margin: 0;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 .page-container-update-box img{
     height: 20vh;
     width: 40vw;
-    align-items: center;
-    margin: 25vh 35vw;
-    margin-bottom: 15vh;
+    align-items: none;
+    margin: 0;
+    margin-bottom: 10vh;
     animation: none;
+    margin-top: 30vh;
 }
 .data{
     text-align: center;
